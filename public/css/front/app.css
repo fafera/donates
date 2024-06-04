@@ -1,0 +1,223 @@
+/* Seção de doação */
+#donate-section {
+    background-color: #f8f9fa; /* Cor de fundo leve */
+}
+
+/* Estilo para controles de formulário */
+#donate-section .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1.25rem; /* Aumentar o preenchimento */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#donate-section .form-select {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1.25rem; /* Aumentar o preenchimento */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none; /* Remover imagem de fundo */
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    appearance: none;
+}
+
+/* Estilo para cartões */
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border: none; /* Sem borda */
+    border-radius: 0.375rem; /* Bordas arredondadas */
+}
+
+/* Tamanho de avatar médio */
+.avatar-md {
+    height: 5rem;
+    width: 5rem;
+}
+
+/* Tamanho de fonte 19px */
+.fs-19 {
+    font-size: 19px;
+}
+
+/* Link primário */
+.primary-link {
+    color: #1f8ef1; /* Cor primária do Material Kit */
+    transition: all .5s ease;
+}
+
+.primary-link:hover {
+    color: #0d6efd; /* Cor primária escura no hover */
+}
+
+/* Estilo para links */
+a {
+    color: #1f8ef1; /* Cor primária do Material Kit */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0d6efd; /* Cor primária escura no hover */
+}
+
+/* Ícones favoritos */
+.bookmark-post .favorite-icon a, .job-box.bookmark-post .favorite-icon a {
+    background-color: #f5365c; /* Cor de alerta */
+    color: #fff;
+    border-color: transparent;
+}
+
+.favorite-icon a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    color: #adb5bd;
+    transition: all .5s ease;
+}
+
+/* Posição dos ícones favoritos */
+.candidate-list-box .favorite-icon {
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+
+/* Tamanho de fonte 14px */
+.fs-14 {
+    font-size: 14px;
+}
+
+/* Selecionar formulário */
+#donate-section .form-select {
+    padding: 0.75rem 1.25rem;
+}
+
+/* Fundo suave secundário */
+.bg-soft-secondary {
+    background-color: rgba(116, 120, 141, .15) !important;
+    color: #74788d !important;
+}
+
+/* Fundo suave de sucesso */
+.bg-soft-success {
+    background-color: rgba(85, 104, 77, .15) !important;
+    color: #55684d !important;
+}
+
+/* Margem superior */
+.mt-1 {
+    margin-top: 0.25rem !important;
+}
+
+/* Estilo para itens de lista */
+.list-group-item {
+    border: none;
+}
+
+.page-item.active .page-link {
+    background-color: #1f8ef1; /* Cor de fundo */
+    border-color: #0d6efd; /* Cor de borda */
+    color: #fff; /* Cor do texto */
+    padding: 0.5rem 1rem; /* Padding para espaçamento */
+    border-radius: 0.375rem; /* Bordas arredondadas */
+    border-width: 1px; /* Largura da borda */
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out; /* Transições suaves */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.page-item.active .page-link:hover {
+    background-color: #0d6efd; /* Cor de fundo no hover */
+    border-color: #1f8ef1; /* Cor de borda no hover */
+    text-decoration: none; /* Manter sem sublinhado no hover */
+}
+
+#paginator .pagination {
+    --bs-pagination-padding-x: 0.75rem; /* Padding horizontal */
+    --bs-pagination-padding-y: 0.375rem; /* Padding vertical */
+    --bs-pagination-font-size: 1rem; /* Tamanho da fonte */
+    --bs-pagination-color: #495057; /* Cor do texto padrão */
+    --bs-pagination-bg: #fff; /* Cor de fundo padrão */
+    --bs-pagination-border-width: 1px; /* Largura da borda */
+    --bs-pagination-border-color: #dee2e6; /* Cor da borda */
+    --bs-pagination-border-radius: 0.375rem; /* Bordas arredondadas */
+    --bs-pagination-hover-color: #0d6efd; /* Cor do texto no hover */
+    --bs-pagination-hover-bg: #f0f2f5; /* Cor de fundo no hover */
+    --bs-pagination-hover-border-color: #dee2e6; /* Cor da borda no hover */
+    --bs-pagination-focus-color: #0d6efd; /* Cor do texto no foco */
+    --bs-pagination-focus-bg: #f0f2f5; /* Cor de fundo no foco */
+    --bs-pagination-focus-box-shadow: 0 0 0 0.2rem rgba(31, 142, 241, 0.25); /* Sombra no foco */
+    --bs-pagination-active-color: #fff; /* Cor do texto ativo */
+    --bs-pagination-active-bg: #1f8ef1; /* Cor de fundo ativo */
+    --bs-pagination-active-border-color: #1f8ef1; /* Cor da borda ativa */
+    --bs-pagination-disabled-color: #6c757d; /* Cor do texto desabilitado */
+    --bs-pagination-disabled-bg: #fff; /* Cor de fundo desabilitado */
+    --bs-pagination-disabled-border-color: #dee2e6; /* Cor da borda desabilitada */
+}
+
+:root {
+    /* Cores padrão para botões */
+    --button-primary-bg: #1f8ef1;
+    --button-primary-border: #0d6efd;
+    --button-primary-text: #fff;
+    --button-primary-hover-bg: #0d6efd;
+    --button-primary-hover-border: #1f8ef1;
+    --button-primary-hover-text: #fff;
+    --button-primary-active-bg: #0c63e4;
+    --button-primary-active-border: #0b5ed7;
+
+    /* Cores padrão para botões desabilitados */
+    --button-disabled-bg: #f8f9fa;
+    --button-disabled-border: #dee2e6;
+    --button-disabled-text: #6c757d;
+}
+
+/* Estilo padrão para botões */
+.button {
+    background-color: var(--button-primary-bg);
+    border: 1px solid var(--button-primary-border);
+    color: var(--button-primary-text);
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, color .15s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Estilo para hover nos botões */
+.button:hover {
+    background-color: var(--button-primary-hover-bg);
+    border-color: var(--button-primary-hover-border);
+    color: var(--button-primary-hover-text);
+}
+
+/* Estilo para botões quando estão sendo clicados */
+.button:active {
+    background-color: var(--button-primary-active-bg);
+    border-color: var(--button-primary-active-border);
+    color: var(--button-primary-text);
+}
+
+/* Estilo para botões desabilitados */
+.button:disabled {
+    background-color: var(--button-disabled-bg);
+    border-color: var(--button-disabled-border);
+    color: var(--button-disabled-text);
+    cursor: not-allowed;
+}
